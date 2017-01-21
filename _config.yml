@@ -1,0 +1,30 @@
+# Site
+title: James Chang's blog.
+description: Where I talk about life.
+locale: en_US
+
+# Jekyll
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+sass:
+  sass_dir:         assets/_sass
+  style:            compressed
+
+# Gems
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+# Exclude list
+include: [_pages]
+exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store]
+
+# Google Analytics
+google-analytics: UA-90785914-1

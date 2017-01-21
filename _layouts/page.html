@@ -1,0 +1,22 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body id="posts" class="inner-post-page">
+
+    <div class="block-right block-right-100">
+      <a href="{{ site.url }}" title="home" class="posts-menu-icon"></a>
+      <div class="inner-post content">
+        <div class="date-highlight">{% if page.date %}{{ page.date | date: '%d %b %Y' }}{% else %}&#x2756;{% endif %}</div>
+        {{ content }}
+        <br>
+        {% include page-pagination.html %}
+      </div>
+    </div>
+    {% include scripts.html %}
+    {% include overlay.html %}
+</body>
+</html>
