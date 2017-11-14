@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Write Better Chef Code"
+title: How to Write Better Chef Code
 tags:
   - Software Engineering
 ---

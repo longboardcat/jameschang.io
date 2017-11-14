@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Play Fascist in Secret Hitler"
+title: How to Play Fascist in Secret Hitler
 tags:
   - Games
 ---

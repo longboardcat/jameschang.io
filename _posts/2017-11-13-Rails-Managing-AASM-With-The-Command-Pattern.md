@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Rails -- Managing AASM with the Command Pattern"
+title: Rails -- Managing AASM with the Command Pattern
 tags:
   - Software Engineering
 ---
