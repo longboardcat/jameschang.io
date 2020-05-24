@@ -28,3 +28,5 @@ exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, 
 
 # Google Analytics
 google-analytics: UA-90785914-1
+
+theme: jekyll-theme-cayman
