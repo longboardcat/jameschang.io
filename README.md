@@ -2,8 +2,6 @@
 
 [![Build Status](https://travis-ci.org/longboardcat/longboardcat.github.io.svg?branch=master)](https://travis-ci.org/longboardcat/longboardcat.github.io)
 
-Blog served by Jekyll. Made with the [Halve template](https://github.com/TaylanTatli/Halve).
-
 ![Homepage](images/example_homepage.png)
 
 ## Development
