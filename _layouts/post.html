@@ -1,22 +1,27 @@
 ---
-layout: compress
+layout: default
 ---
 
-<!DOCTYPE html>
-<html>
-{% include head.html %}
-<body id="posts" class="inner-post-page">
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <span class="post-date">{{ page.date | date_to_string }}</span>
+  {{ content }}
+</div>
 
-    <div class="block-right block-right-100">
-      <a href="{{ site.url }}" title="home" class="posts-menu-icon"></a>
-      <div class="inner-post content">
-        <div class="date-highlight">{% if page.date %}{{ page.date | date: '%d %b %Y' }}{% else %}&#x2756;{% endif %}</div>
-        {{ content }}
-        <br>
-        {% include page-pagination.html %}
-      </div>
-    </div>
-    {% include scripts.html %}
-    {% include overlay.html %}
-</body>
-</html>
+{% if site.related_posts.size >= 1 %}
+<div class="related">
+  <h2>Related posts</h2>
+  <ul class="related-posts">
+    {% for post in site.related_posts limit:3 %}
+      <li>
+        <h3>
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.title }}
+            <small>{{ post.date | date_to_string }}</small>
+          </a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
