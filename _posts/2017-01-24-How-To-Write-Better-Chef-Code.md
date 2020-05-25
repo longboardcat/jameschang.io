@@ -1,8 +1,6 @@
 ---
 layout: post
 title: How to Write Better Chef Code
-tags:
-  - Software Engineering
 ---
 
 Authoring and endlessly refactoring Square's Mac Chef has shaped my opinions of what a node bringup

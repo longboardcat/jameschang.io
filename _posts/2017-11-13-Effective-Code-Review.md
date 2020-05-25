@@ -1,7 +1,5 @@
 ---
 layout: post
-tags:
-  - Software Engineering
 ---
 
 Reviewing code becomes second-nature to most engineers that have worked a significant amount of time. Reviewers will catch minor bugs and stylistic issues, but code review slowly becomes a chore that’s necessary to deploy a change. Code review is actually a way to improve, and reviewing time can be used to better yourself in addition to the team. This is an ongoing list to do just that.

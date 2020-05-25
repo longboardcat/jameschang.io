@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Introducing git-fastclone
-tags:
-  - Software Engineering
 ---
 
 Lightning fast, repeated git checkouts that are especially useful for CI. Get it [here](https://github.com/square/git-fastclone).
